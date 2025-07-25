@@ -525,7 +525,7 @@
             window.open(downloadLink, '_blank');
           }).catch(err => {
             alert("Erreur lors de l'envoi. Réessayez.");
-            console.error(err);
+            console.error("Erreur réseau ou CORS :", err);
           });
         });
         </script>
